@@ -295,3 +295,7 @@ $(document).ready(function(){
  
    
 }); //docready
+
+// Style imports for Webpack 
+
+require('../css/app.scss'); 

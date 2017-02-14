@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/ARWL2016/nought-and-cross-app#readme",
   "devDependencies": {
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.0",
+    "style-loader": "^0.13.1",
     "webpack": "^2.2.1"
   }
 }
