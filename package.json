@@ -1,0 +1,22 @@
+{
+  "name": "noughts-and-crosses-app",
+  "version": "1.0.0",
+  "description": "https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game      http://codepen.io/arw2014e5/pen/YpWRge      https://github.com/ARWL2016/nought-and-cross-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARWL2016/nought-and-cross-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARWL2016/nought-and-cross-app/issues"
+  },
+  "homepage": "https://github.com/ARWL2016/nought-and-cross-app#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
