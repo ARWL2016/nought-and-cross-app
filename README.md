@@ -10,4 +10,6 @@ https://github.com/ARWL2016/nought-and-cross-app
 
 **Notes**   
 1. The AI should be unbeatable    
-2. The AI is accomplished with three functions. The general strategy function chooses a move based on the value of a particular cell. Two other functions pick the winning cell or block the opponent winning. These generic calls are augmented by a small number of hard-coded moves.     
+2. The AI is accomplished with three functions. The general strategy function chooses a move based on the value of a particular cell. Two other functions pick the winning cell or block the opponent winning. These generic calls are augmented by a small number of hard-coded moves.
+
+     
