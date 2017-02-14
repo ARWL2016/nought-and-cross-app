@@ -63,11 +63,17 @@
 /******/ 	__webpack_require__.p = "/public/assets";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "5eb70df4e07f63a7da0dd872c52ce7ef.jpg";
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 $(document).ready(function(){
@@ -370,24 +376,30 @@ $(document).ready(function(){
 
 // Style imports for Webpack 
 
-__webpack_require__(4); 
+__webpack_require__(5); 
+
+//image imports 
+var img = document.createElement('img');
+img.src = __webpack_require__(0); 
+
+document.getElementById("img_container").appendChild(img); 
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(2)();
+exports = module.exports = __webpack_require__(3)();
 // imports
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #000;\n  background: url(\"http://wallpapercave.com/wp/xoinmjE.jpg\");\n  background-size: cover;\n  font-family: Arial, sans-serif;\n  color: white;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\n#main {\n  background-color: #0A2B54;\n  border-radius: 18px;\n  width: 320px;\n  height: 500px;\n  margin: 0 auto;\n  margin-top: 50px;\n  position: relative;\n  -moz-box-shadow: 0 0 5px 5px #888;\n  -webkit-box-shadow: 0 0 5px 5px #888;\n  box-shadow: 0 0 5px 5px #888; }\n\nh1 {\n  font-size: 0.6em;\n  text-align: center;\n  top: 20px;\n  position: relative; }\n\n.playerSelect {\n  background-color: #0A2B54;\n  color: #FFF;\n  font-size: 1.3em;\n  border: none;\n  width: 43%;\n  height: 40px;\n  top: 40px;\n  position: relative; }\n\n.playerSelect:nth-of-type(1) {\n  text-align: right;\n  padding-right: 10px;\n  text-shadow: 0 0 10px #f90404, 0 0 20px #f90404, 0 0 30px white, 0 0 40px white; }\n\n.playerSelect:nth-of-type(2) {\n  text-align: left;\n  float: right;\n  padding-left: 10px;\n  text-shadow: 0 0 10px #3ae05e, 0 0 20px #3ae05e, 0 0 30px white, 0 0 40px white; }\n\n#scoreBoard {\n  width: 12%;\n  display: inline-block;\n  text-align: center;\n  position: relative;\n  top: 38px; }\n\n.underline {\n  background-color: #154b8e; }\n\n.player1Style {\n  text-shadow: 0 0 10px #f90404, 0 0 20px #f90404, 0 0 30px white, 0 0 40px white; }\n\n.player2Style {\n  text-shadow: 0 0 10px #3ae05e, 0 0 20px #3ae05e, 0 0 30px white, 0 0 40px white; }\n\ntable {\n  position: relative;\n  margin: 0 auto;\n  top: 70px; }\n\n.boardButton {\n  background-color: #081C35;\n  height: 87px;\n  width: 87px;\n  font-size: 50px;\n  font-weight: bold;\n  transition: all 0.6s; }\n  .boardButton:disabled {\n    color: #FFF; }\n\nbutton:hover {\n  background-color: #154b8e; }\n\n#newGame {\n  font-size: 1.8em;\n  background-color: inherit;\n  position: absolute;\n  bottom: 15px;\n  color: white;\n  text-shadow: 0 0 10px green,  0 0 20px green, 0 0 30px white, 0 0 40px white;\n  border: 0;\n  width: 100%;\n  height: auto;\n  padding: 10px; }\n  #newGame:hover {\n    background-color: #124e98; }\n\n.winAnimation {\n  background-color: #1957a4; }\n", ""]);
+exports.push([module.i, "body {\n  background-color: #000;\n  background: url(" + __webpack_require__(0) + ");\n  background-size: cover;\n  font-family: Arial, sans-serif;\n  color: white;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\n#main {\n  background-color: #0A2B54;\n  border-radius: 18px;\n  width: 320px;\n  height: 500px;\n  margin: 0 auto;\n  margin-top: 50px;\n  position: relative;\n  -moz-box-shadow: 0 0 5px 5px #888;\n  -webkit-box-shadow: 0 0 5px 5px #888;\n  box-shadow: 0 0 5px 5px #888; }\n\nh1 {\n  font-size: 0.6em;\n  text-align: center;\n  top: 20px;\n  position: relative; }\n\n.playerSelect {\n  background-color: #0A2B54;\n  color: #FFF;\n  font-size: 1.3em;\n  border: none;\n  width: 43%;\n  height: 40px;\n  top: 40px;\n  position: relative; }\n\n.playerSelect:nth-of-type(1) {\n  text-align: right;\n  padding-right: 10px;\n  text-shadow: 0 0 10px #f90404, 0 0 20px #f90404, 0 0 30px white, 0 0 40px white; }\n\n.playerSelect:nth-of-type(2) {\n  text-align: left;\n  float: right;\n  padding-left: 10px;\n  text-shadow: 0 0 10px #3ae05e, 0 0 20px #3ae05e, 0 0 30px white, 0 0 40px white; }\n\n#scoreBoard {\n  width: 12%;\n  display: inline-block;\n  text-align: center;\n  position: relative;\n  top: 38px; }\n\n.underline {\n  background-color: #154b8e; }\n\n.player1Style {\n  text-shadow: 0 0 10px #f90404, 0 0 20px #f90404, 0 0 30px white, 0 0 40px white; }\n\n.player2Style {\n  text-shadow: 0 0 10px #3ae05e, 0 0 20px #3ae05e, 0 0 30px white, 0 0 40px white; }\n\ntable {\n  position: relative;\n  margin: 0 auto;\n  top: 70px; }\n\n.boardButton {\n  background-color: #081C35;\n  height: 87px;\n  width: 87px;\n  font-size: 50px;\n  font-weight: bold;\n  transition: all 0.6s; }\n  .boardButton:disabled {\n    color: #FFF; }\n\nbutton:hover {\n  background-color: #154b8e; }\n\n#newGame {\n  font-size: 1.8em;\n  background-color: inherit;\n  position: absolute;\n  bottom: 15px;\n  color: white;\n  text-shadow: 0 0 10px green,  0 0 20px green, 0 0 30px white, 0 0 40px white;\n  border: 0;\n  width: 100%;\n  height: auto;\n  padding: 10px; }\n  #newGame:hover {\n    background-color: #124e98; }\n\n.winAnimation {\n  background-color: #1957a4; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -443,7 +455,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports) {
 
 /*
@@ -695,16 +707,16 @@ function updateLink(linkElement, obj) {
 
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1);
+var content = __webpack_require__(2);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(3)(content, {});
+var update = __webpack_require__(4)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -721,11 +733,10 @@ if(false) {
 }
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(0);
-(function webpackMissingModule() { throw new Error("Cannot find module \"dev-server\""); }());
+module.exports = __webpack_require__(1);
 
 
 /***/ })
