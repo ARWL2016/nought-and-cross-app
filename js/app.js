@@ -300,8 +300,3 @@ $(document).ready(function(){
 
 require('../css/app.scss'); 
 
-//image imports 
-var img = document.createElement('img');
-img.src = require('../images/black-bg.jpg'); 
-
-document.getElementById("img_container").appendChild(img); 
