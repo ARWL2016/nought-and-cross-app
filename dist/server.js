@@ -1,5 +1,5 @@
 var express = require('express');
-// var https = require('https');
+var https = require('https');
 var compression = require('compression');
 
 var app = express();
@@ -16,6 +16,6 @@ app.listen(port, (err) => {
     }
 });
 
-// setInterval(function() {
-//   https.get("https://calculator-arwl.herokuapp.com/");
-// }, 180000);
+setInterval(function() {
+  https.get("https://arwl-noughts-and-crosses.herokuapp.com/");
+}, 180000);
