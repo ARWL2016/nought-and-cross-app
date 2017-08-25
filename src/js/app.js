@@ -194,7 +194,6 @@ $(document).ready(function(){
 }
   
   function generalStrategy() {
-    console.log("GS CALL");
     for (let i in generalStrategyArray) {
       if (generalStrategyArray[i] === 0) {
         $(generalStrategyBtns[i]).click(); 

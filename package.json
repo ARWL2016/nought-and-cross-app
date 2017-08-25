@@ -4,7 +4,9 @@
   "description": "https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game      http://codepen.io/arw2014e5/pen/YpWRge      https://github.com/ARWL2016/nought-and-cross-app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "live-server --browser=CHROME --open=src",
+    "prod": "node dist/server.js",
+    "build:prod": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -17,12 +19,22 @@
   },
   "homepage": "https://github.com/ARWL2016/nought-and-cross-app#readme",
   "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-latest": "6.24.1",
+    "babel-register": "6.26.0",
     "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "^0.10.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "compression": "1.7.0",
+    "express": "4.15.4"
   }
 }
