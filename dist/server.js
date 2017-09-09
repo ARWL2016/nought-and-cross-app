@@ -16,6 +16,6 @@ app.listen(port, (err) => {
     }
 });
 
-setInterval(function() {
-  https.get("https://arwl-noughts-and-crosses.herokuapp.com/");
-}, 180000);
+// setInterval(function() {
+//   https.get("https://arwl-noughts-and-crosses.herokuapp.com/");
+// }, 180000);
