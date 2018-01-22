@@ -7,7 +7,7 @@
     "node": "6.11.2"
   },
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node server.js",
     "dev": "live-server --browser=CHROME --open=src",
     "prod": "node dist/server.js",
     "build:prod": "webpack -p"
